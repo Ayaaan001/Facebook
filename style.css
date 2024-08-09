@@ -1,0 +1,108 @@
+.section{
+    font-size: 30px;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+h1{
+    color: rgba(0, 0, 255, 0.74);
+
+}
+
+.from{
+    width: 400px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.801);
+    position: absolute;
+    top: -20px;
+    left: 750px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+   
+}
+
+.from input{
+    width: 390px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(146, 144, 140);
+   border-radius: 10px;
+    color: rgb(163, 157, 157);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    box-shadow: #ff0000;
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #000000;
+    font-family: Arial;
+}
+
+
+
+.btnn{
+    width: 330px;
+    height: 40px;
+    background: rgb(95, 144, 235);  
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0);
+    transition: 0.4s ease;
+}
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.btnn:hover{
+    background-color: #000000;
+   
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn{
+    width: 240px;
+    height: 50px;
+    background: rgb(32, 139, 6);  
+    font-size: 18px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0);
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background-color: #000000;
+   
+}
+
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-1{
+    margin-top: 220px;
+    margin-left: 690px;
+    font-size: 15px;
+    color: #000000;
+}
